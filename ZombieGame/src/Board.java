@@ -13,6 +13,7 @@ public class Board extends JPanel implements ActionListener, Runnable {
 	boolean a = false;
 	boolean done2 = false;
 	
+	//board
 	public Board() {
 		p = new Dude();
 		addKeyListener(new AL());
